@@ -3,25 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TPK</title>
+    <title>Site 1C</title>
     <style>
-        header {background-color: rgb(172, 1, 1);
-        color: black;
-        text-align:center;
-        margin: 0 auto;
-        border: 5px solid #000000;
-    }
+        header {
+            background-color: darkred;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+            border: 5px solid #000000;
+            padding: 16px;
+        }
+        main {
+           background-color: rgb(243, 243, 243);
+            color: rgb(0, 0, 0);
+            text-align: center;
+            margin: 0 auto;
+   
+        }
+        img {
+            width: 80px;
+            height: 80px;
+        }
     </style>
 </head>
 <body>
     <header>
-         <h1>matando personagens rpg</h1>
-    <p>100 ideias de aniquilar um player, atualizado 2026</p>
+        <h1>Site sobre rpg</h1>
+        <p>Esse site foi feito para trarzer você para o mundo incriel de rpg</p>
     </header>
-   <main>
-    <h2> meu primeiro post </h2>
-    <p> editado por Delinski </p>
-    <img src="imagem trabalho.jpg" alt=" aguiar feliz depois de atacar o inimigo">
-   </main>
+    <main>
+        <img src="imagem trabalho.jpg" alt="icone de computador">
+       
+        <div>
+            <h2>Meu primeiro post</h2>
+            <p>editado por Delinski</p>
+            <p>Bem vindos! Hoje você vai conhecer um site que vai te levar ao mundo dos jogos de imaginação e interpretação chamado Rpg</p>
+            <button>❤️ <span>0</span></button>
+        </div>
+           
+    </main>
 </body>
+
+<script>
+    const botao = document.querySelector("button");
+    botao.addEventListener("click",botaoClicado)
+
+    function botaoClicado () { 
+        console.log("fui clicado")
+
+    }
+</script>
+
 </html>
